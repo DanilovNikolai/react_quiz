@@ -24,7 +24,7 @@ export default function Result({ correctAnswer, questions }) {
           {correctAnswer} правильных ответа из {questions?.length}
         </h2>
       )}
-      <a href="/">
+      <a href="https://danilovnikolai.github.io/react_quiz/">
         <button>Попробовать снова</button>
       </a>
     </div>
