@@ -10,9 +10,9 @@ The entire application consists of one page, there is no routing here.
 
 ## **The following basic skills have been worked out:**
 
-### 1. Using the useState and useEffect hooks (with dependencies);
-### 2. Using localStorage;
-### 3. Using onClick events on elements;
-### 4. Import icons, libraries, hooks and components;
-### 5. Using conditional rendering using the ternary operator
-### 6. Working with props;
+1. Using the useState and useEffect hooks (with dependencies);
+2. Using localStorage;
+3. Using onClick events on elements;
+4. Import icons, libraries, hooks and components;
+5. Using conditional rendering using the ternary operator
+6. Working with props;
