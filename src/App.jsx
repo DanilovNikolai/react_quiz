@@ -1,5 +1,6 @@
 import "./index.scss";
 import React, { useState, useEffect } from "react";
+// components
 import Result from "./components/Result";
 import Game from "./components/Game";
 import questions from "./questions.json";
@@ -25,7 +26,7 @@ function App() {
     }
   }, [correctAnswer, step]);
 
-  function onClickVariant(index) {
+  function handleClickVariant(index) {
     setStep((step) => step + 1);
     if (currentQuestion?.correct === index + 1) {
       setCorrectAnswer((correctAnswer) => correctAnswer + 1);
@@ -39,7 +40,7 @@ function App() {
           step={step}
           currentQuestion={currentQuestion}
           questions={questions}
-          onClickVariant={onClickVariant}
+          onClickVariant={handleClickVariant}
         />
       ) : (
         <Result correctAnswer={correctAnswer} questions={questions} />
