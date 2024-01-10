@@ -2,13 +2,13 @@
 
 This is a project where I practiced learning the React library.
 
-## **App description:**
+# **App description:**
 
 This is a small web application in which you need to answer questions in a test format.
 There are 25 questions about the React library in total.
 The entire application consists of one page, there is no routing here.
 
-## **The following basic skills have been worked out:**
+# **The following basic skills have been worked out:**
 
 1. Using the useState and useEffect hooks (with dependencies);
 2. Using localStorage;
